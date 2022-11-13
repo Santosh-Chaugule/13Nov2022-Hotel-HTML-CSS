@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+      }
+
+      .photo-gallary {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        border: 1px solid grey;
+        margin-top: 80px;
+       
+        height: 800px;
+        background-color: black;
+        border-radius: 20px;
+      }
+      .photos {
+        float: left;
+        margin: 10px;
+        /* border: 1px solid gray; */
+        margin-left: 40px;
+        transition: transform 0.5s;
+      }
+      .photos :hover {
+        transform: scale(1.1);
+      }
+      .photos img {
+        box-shadow: 0px 0px 2px 2px gray;
+        border-radius: 10px;
+      }
+      .img-caption {
+        color: gold;
+      }
+      .heading {
+        margin-top: 20px;
+        font-weight: 400;
+        text-align: center;
+        font-size: 60px;
+        color: gold;
+        text-shadow: 0px 0px 2px 2px gray;
+      }
+      .heading:hover {
+        transform: scale(1.2);
+      }
+      .para {
+        color: silver;
+        text-align: center;
+        text-shadow: 1px gray;
+      }
+      .home-return {
+        color: silver;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <a href="index.html" class="home-return">Home</a>
+      <h1 class="heading">
+        <b><i>This Is Ladder To The Heaven</i></b>
+      </h1>
+      <pre class="para"><I>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque
+        similique laudantium officia? In repudiandae, veniam error vel atque
+        nostrum blanditiis? Quasi ipsam repellat voluptatem, voluptates
+        accusantium, nisi magnam reprehenderit reiciendis voluptas sapiente ex
+        eligendi quos temporibus iste sunt adipisci eveniet alias? Deleniti a
+        ullam quis quos et ex assumenda veritatis!</I>
+      </pre>
+    </div>
+    <div class="photo-gallary">
+      <div class="photos">
+        <a href="index5.html">
+          <img src="./img/p1.jpg" width="350px" height="350px" />
+          <div class="img-caption">ULTRA BRUT</div></a
+        >
+      </div>
+      <div class="photos">
+        <a href="index5.html">
+          <img src="./img/p2.jpg" width="350px" height="350px"  />
+          <div class="img-caption">BLANC DE BLANCS</div></a
+        >
+      </div>
+      <div class="photos">
+        <img src="./img/p3.jpg" width="350px" height="350px"  />
+        <div class="img-caption">LA CUVÉE</div>
+      </div>
+      <div class="photos">
+        <img src="./img/p4.jpg" width="350px" height="350px"  />
+        <div class="img-caption">CUVÉE ROSÉ</div>
+      </div>
+      <div class="photos">
+        <img src="./img/p5.jpg" width="350px" height="350px"  />
+        <div class="img-caption">GRAND SIÈCLE</div>
+      </div>
+      <div class="photos">
+        <img src="./img/p6.jpg" width="350px" height="350px"  />
+        <div class="img-caption">HARMONY</div>
+      </div>
+     
+      </div>
+    </div>
+  </body>
+</html>
